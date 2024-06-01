@@ -12,7 +12,8 @@ for _ in 0..7 {
 println!("Generated numbers: {:?}", numbers);
 
 // Sort in descending order
-numbers.sort_by(|a, b| b.cmp(a)); 
+//numbers.sort_by(|a, b| b.cmp(a)); 
+numbers.sort();
 
 // Prints sorted numbers
 println!("Sorted in descending order: {:?}", numbers);
